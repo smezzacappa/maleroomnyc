@@ -1,12 +1,19 @@
 .App {
   text-align: center;
+  background-image: url(./maleroom-background.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+
 }
 
 .h1{
   font-size: 150px; 
 }
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,11 +25,3 @@
 
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
