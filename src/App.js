@@ -2,6 +2,7 @@ import React from 'react';
 
 import './App.css';
 import Logo from './components/Logo/Logo';
+import Stamp from './components/Stamp/Stamp';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <header className="App-header">
         
         
-        <div className="h1">Coming Soon</div>  
+        <div><Stamp/></div>
         <p>
           <Logo/>
         </p>
