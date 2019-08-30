@@ -33,7 +33,7 @@
       "last 1 safari version"
     ]
   },
-  "main": "src/index.js",
+  "main": "public/index.html",
   "repository": "https://github.com/smezzacappa/maleroomnyc.git",
   "author": "Steven Mezzacappa <steven.mezzacappa@gmail.com>",
   "license": "MIT"
