@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pagesn-d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -47,8 +47,16 @@
     ]
   },
   "main": "public/index.html",
-  "repository": "https://github.com/smezzacappa/maleroomnyc.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smezzacappa/maleroomnyc.git"
+  },
   "author": "Steven Mezzacappa <steven.mezzacappa@gmail.com>",
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/smezzacappa/maleroomnyc/issues"
+  },
+  "keywords": [],
+  "description": ""
 }
