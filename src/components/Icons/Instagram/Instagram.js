@@ -6,7 +6,7 @@ import "./Instagram.css";
 const Instagram = () =>{
 return(
     <a href = "instagram.com">
-<FontAwesomeIcon icon={faInstagram} size="6x" />
+<FontAwesomeIcon icon={faInstagram} size="4x" style={{"color":"black"}}/>
 </a>
     )
 }

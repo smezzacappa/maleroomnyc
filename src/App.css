@@ -1,9 +1,10 @@
 .App {
   text-align: center;
-  background-image: url(./maleroom-background.png);
+  background-image: url(./images/maleroom-background.png);
 
   background-repeat: no-repeat;
   background-size: cover;
+ 
  
   
 
@@ -21,7 +22,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
+  
 }
 
+.container{
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
 
-
+a{
+  padding-left: 50px;
+    padding-right: 50px;
+  padding-top: 50px;
+}

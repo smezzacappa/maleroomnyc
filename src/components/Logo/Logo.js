@@ -1,13 +1,14 @@
 import React from 'react';
-import maleroom from './maleroom.png';
+import Logo from './Logo.png';
+import './Logo.css'
 
-const Logo = () =>{
+const Stamp = () =>{
    
     return(
 
-<img src={maleroom} alt="maleroom"></img>
+<img src={Logo} alt="Logo" id="logo"></img>
 
     )
 };
 
-export default Logo;
+export default Stamp;
