@@ -1,5 +1,10 @@
 #flyer{
-    height:50%;
-    width: 50%;
+    height:auto;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+#longFlyer{
+    height:auto;
+    width: 100%;
     box-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
