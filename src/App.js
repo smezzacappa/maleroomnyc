@@ -11,6 +11,7 @@ import Logo from './components/Logo/Logo';
 import Statement from './components/Statement/Statement';
 import StatementTwo from './components/Statement/Statement2';
 import VideoPlayer from './components/VideoPlayer/VideoPlayer';
+// import SignUp from './components/Form/Form'
 // import acEvents from './images/AC.png';
 import Ticket from './images/ticket.png';
 import MapContainer from './components/Map/Map';
@@ -18,6 +19,8 @@ import MapContainer from './components/Map/Map';
 
 function App() {
 
+  
+   
   return (
     
     <div className="App">
@@ -37,7 +40,7 @@ function App() {
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown> */}
-    </Nav> <Nav.Link href="#features"><img src={Ticket} alt='' id="ticket"></img></Nav.Link>
+    </Nav> <Nav.Link href="https://antonio-cedeno-events.ticketleap.com/male-room/" rel="noopener noreferrer" target="_blank"  ><img src={Ticket} alt='' id="ticket"></img></Nav.Link>
     <Nav.Link>
       <Facebook></Facebook></Nav.Link>
       <Nav.Link><Twitter></Twitter></Nav.Link>
@@ -53,8 +56,8 @@ function App() {
         <hr/>
         </Row>
         
-       
-        <Row>
+       <br></br>
+        {/* <Row>
   
   <Col>
   <Card>
@@ -62,7 +65,7 @@ function App() {
    </Card>
    </Col>
    <br/>
-   </Row>
+   </Row> */}
    
     </header> 
 <Container id="Player">
@@ -91,7 +94,10 @@ function App() {
               <Card>
             <Card.Header style={{'font-size': '30px'}}>Information & Tickets</Card.Header>
                <Card.Body>
-                    <Card.Title>  </Card.Title>
+                    <Card.Title> 
+                    
+    
+ </Card.Title>
                         <Card.Text>
       
                       </Card.Text>
@@ -99,10 +105,13 @@ function App() {
               </Card.Body>
           </Card>
         </Col>
-        <Col><MapContainer/>  </Col>
-</Row>
+        <Col>
+        <MapContainer/> 
+         </Col>
+        </Row>
 </Container>
 
+ 
 
          <Row className="Info">
            <Container>
@@ -117,5 +126,6 @@ function App() {
 
   );
 }
+
 
 export default App;
