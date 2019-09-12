@@ -68,25 +68,35 @@ function App() {
    </Row> */}
    
     </header> 
-<Container id="Player">
+
+
+<Container className="Player">
   <VideoPlayer/>
   </Container>
+
+
   <Container className="Info">
          <Row>
+
            <Col>
-         <div className="card">
+
+         <Card>
+
          <StatementTwo/>
-        </div>
+
+        </Card>
+
       </Col>
+
       <Col>
-      
+
           <Flyer/>
-    
-         
+
         </Col>  
 </Row>
 
 </Container>
+
 <Container  className="Info">
         <Row>
           <Col >
@@ -105,10 +115,15 @@ function App() {
               </Card.Body>
           </Card>
         </Col>
-        <Col>
+
+        <Col className="Map">
+
         <MapContainer/> 
+
          </Col>
+
         </Row>
+
 </Container>
 
  
