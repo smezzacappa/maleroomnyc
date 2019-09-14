@@ -80,9 +80,9 @@ function App() {
 
 </Container>
 
-<Container  className="Info">
-        <Row>
-          <Col >
+<Container className="Info">
+        <Row className="row">
+          <Col lg={4}>
         
               <Card>
             <Card.Header style={{'font-size': '30px'}}>Information & Tickets</Card.Header>

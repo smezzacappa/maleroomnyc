@@ -103,7 +103,7 @@ a{
   font-size: 20px;
   font-weight: bolder;
   padding: 20px;
- margin-right: 5%;
+ margin-bottom: 5%;
   opacity: .8;
   color: black;
   font-family: 'Fredericka the Great', cursive;
@@ -159,7 +159,7 @@ a{
   
   width: 30%;
   height: auto;
-  margin-left: 10%;
+  display: flex;
 }
 .Info{
   margin-top: 5%;
