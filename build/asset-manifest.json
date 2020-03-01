@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.c16acea4.chunk.css",
-    "main.js": "/static/js/main.378ec767.chunk.js",
-    "main.js.map": "/static/js/main.378ec767.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.e18cc350.js",
-    "runtime~main.js.map": "/static/js/runtime~main.e18cc350.js.map",
-    "static/css/2.819eb4d1.chunk.css": "/static/css/2.819eb4d1.chunk.css",
-    "static/js/2.593e9f6f.chunk.js": "/static/js/2.593e9f6f.chunk.js",
-    "static/js/2.593e9f6f.chunk.js.map": "/static/js/2.593e9f6f.chunk.js.map",
+    "main.css": "/static/css/main.231562a3.chunk.css",
+    "main.js": "/static/js/main.830ea65f.chunk.js",
+    "main.js.map": "/static/js/main.830ea65f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eaf70015.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eaf70015.js.map",
+    "static/css/2.ca37d25d.chunk.css": "/static/css/2.ca37d25d.chunk.css",
+    "static/js/2.a871857e.chunk.js": "/static/js/2.a871857e.chunk.js",
+    "static/js/2.a871857e.chunk.js.map": "/static/js/2.a871857e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c98a063cd3c815cb0fa10cfe386a0864.js": "/precache-manifest.c98a063cd3c815cb0fa10cfe386a0864.js",
+    "precache-manifest.cc6d666482b571d161b9ce24985b263b.js": "/precache-manifest.cc6d666482b571d161b9ce24985b263b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.819eb4d1.chunk.css.map": "/static/css/2.819eb4d1.chunk.css.map",
-    "static/css/main.c16acea4.chunk.css.map": "/static/css/main.c16acea4.chunk.css.map",
+    "static/css/2.ca37d25d.chunk.css.map": "/static/css/2.ca37d25d.chunk.css.map",
+    "static/css/main.231562a3.chunk.css.map": "/static/css/main.231562a3.chunk.css.map",
+    "static/js/2.a871857e.chunk.js.LICENSE.txt": "/static/js/2.a871857e.chunk.js.LICENSE.txt",
     "static/media/69430521_2426226837625319_4648185311933759488_n.jpg": "/static/media/69430521_2426226837625319_4648185311933759488_n.2939cfb6.jpg",
     "static/media/App.css": "/static/media/maleroom-background.0e913f24.png",
     "static/media/logoRed9.png": "/static/media/logoRed9.3c25ba84.png",
     "static/media/longFlyer.jpg": "/static/media/longFlyer.24cb5fd4.jpg",
     "static/media/ticket.png": "/static/media/ticket.03103d39.png",
     "static/media/video.mp4": "/static/media/video.8b2d321b.mp4"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eaf70015.js",
+    "static/css/2.ca37d25d.chunk.css",
+    "static/js/2.a871857e.chunk.js",
+    "static/css/main.231562a3.chunk.css",
+    "static/js/main.830ea65f.chunk.js"
+  ]
 }
